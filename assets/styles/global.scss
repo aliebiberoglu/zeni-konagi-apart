@@ -1,0 +1,25 @@
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px,
+);
+$bv-enable-table-stacked: false;
+
+$primary:       #aed35d !default;
+
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-size-base:              0.875rem !default; // Assumes the browser default, typically `16px`
+$border-radius:               0 !default;
+
+$line-height-base:            1.625 !default;
+
+$input-btn-focus-box-shadow:  none !default;
+
+$input-btn-padding-y:         .375rem !default;
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+
+@import './styles.scss'

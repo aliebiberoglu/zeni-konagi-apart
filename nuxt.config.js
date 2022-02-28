@@ -1,7 +1,9 @@
 export default {
+  target: 'static',
+  
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'zeni-konagi-apart',
+    title: 'Zeni Konağı Apart',
     htmlAttrs: {
       lang: 'en'
     },
@@ -18,6 +20,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/styles/global.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -39,5 +42,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  bootstrapVue: {
+    bootstrapCSS: false,
+    bootstrapVueCSS: false
+  },
 }
