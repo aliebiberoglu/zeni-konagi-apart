@@ -64,6 +64,20 @@ section.content
           .text
             p Zeni Konağı Apart
             span {{ image.tag }}
+  section#contact
+    .row.mx-0
+      .col.col-lg-12
+        h2.heading-title İletişim
+        hr.hr-short
+      .col.col-lg-12.px-0
+        iframe(
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.0615794272867!2d40.99569931552183!3d41.15500761833128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4066463d96de4c61%3A0xe5f85eff3a50bcfe!2zWmVuaSBLb25hxJ_EsSBBcGFydA!5e0!3m2!1sen!2str!4v1646154438111!5m2!1sen!2str"
+          width="100%"
+          height="460"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+        )
 </template>
 
 <script>
@@ -111,7 +125,7 @@ export default {
           url: '/photos/galery-12.png',
         },
       ]
-    }
-  }
+    };
+  },
 }
 </script>
