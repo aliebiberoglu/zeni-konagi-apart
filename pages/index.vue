@@ -51,126 +51,67 @@ section.content
             br
             | * The chic and modern retreat is five floors of unrivalled excellence. Within the 1000m2 (3,330 ft 2) of living space are 12 executive-style bedrooms, 16 bathrooms, an indoor swimming pool, sauna and jacuzzi.
       .col.col-lg-6.px-0
-        img(src="/photos/room-1.png")
+        img(src="/photos/room-2.png")
   section#galery
     .row.mx-0
       .col.col-lg-12
         h2.heading-title Galeri
         hr.hr-short
-      .col.col-lg-3.px-0
+      .col.col-lg-3.px-0(v-for="image in imageList")
         .galery-list
           .image
-            img(src="/photos/room-1.png")
+            img(:src="image.url" :alt="`Zeni Konağı Apart - ${image.tag}`")
           .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
-      .col.col-lg-3.px-0
-        .galery-list
-          .image
-            img(src="/photos/room-1.png")
-          .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
-      .col.col-lg-3.px-0
-        .galery-list
-          .image
-            img(src="/photos/room-1.png")
-          .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
-      .col.col-lg-3.px-0
-        .galery-list
-          .image
-            img(src="/photos/room-1.png")
-          .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
-    .row.mx-0
-      .col.col-lg-3.px-0
-        .galery-list
-          .image
-            img(src="/photos/room-1.png")
-          .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
-      .col.col-lg-3.px-0
-        .galery-list
-          .image
-            img(src="/photos/room-1.png")
-          .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
-      .col.col-lg-3.px-0
-        .galery-list
-          .image
-            img(src="/photos/room-1.png")
-          .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
-      .col.col-lg-3.px-0
-        .galery-list
-          .image
-            img(src="/photos/room-1.png")
-          .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
-    .row.mx-0
-      .col.col-lg-3.px-0
-        .galery-list
-          .image
-            img(src="/photos/room-1.png")
-          .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
-      .col.col-lg-3.px-0
-        .galery-list
-          .image
-            img(src="/photos/room-1.png")
-          .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
-      .col.col-lg-3.px-0
-        .galery-list
-          .image
-            img(src="/photos/room-1.png")
-          .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
-      .col.col-lg-3.px-0
-        .galery-list
-          .image
-            img(src="/photos/room-1.png")
-          .text
-            p Le Chalet Mont Blanc dining
-              br
-              | room
-            span Bahçe
+            p Zeni Konağı Apart
+            span {{ image.tag }}
 </template>
 
 <script>
 export default {
   layout: 'detault',
+
+  data() {
+    return {
+      imageList: [
+        {
+          tag: 'Bahçe',
+          url: '/photos/galery-1.png',
+        }, {
+          tag: 'Oturma Salonu',
+          url: '/photos/galery-2.png',
+        }, {
+          tag: 'Oturma Salonu',
+          url: '/photos/galery-3.png',
+        }, {
+          tag: 'Oturma Salonu',
+          url: '/photos/galery-4.png',
+        }, {
+          tag: 'Yatak Odası - 1',
+          url: '/photos/galery-5.png',
+        }, {
+          tag: 'Yatak Odası - 1',
+          url: '/photos/galery-6.png',
+        }, {
+          tag: 'Yatak Odası - 2',
+          url: '/photos/galery-7.png',
+        }, {
+          tag: 'Yatak Odası - 2',
+          url: '/photos/galery-8.png',
+        }, {
+          tag: 'Mutfak',
+          url: '/photos/galery-9.png',
+        }, {
+          tag: 'Merdiven',
+          url: '/photos/galery-10.png',
+        }, {
+          tag: 'Lavoba',
+          url: '/photos/galery-11.png',
+        }, {
+          tag: 'Banyo',
+          url: '/photos/galery-12.png',
+        },
+      ]
+    }
+  }
 }
 </script>

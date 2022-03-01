@@ -130,6 +130,8 @@ img {
 #galery {
   .galery-list {
     position: relative;
+    height: 280px;
+    overflow: hidden;
 
     &:before {
       position: absolute;
