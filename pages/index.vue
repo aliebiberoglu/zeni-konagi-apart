@@ -19,7 +19,9 @@ section.content
           hr.hr-short
         .col-12.col-sm-6
           h4.heading-sub-title Hoşgeldiniz
-          p Yepyeni bir apart da, doğanın sessizliği, yeşilin huzuru ve deniz manzarasıyla unutulmaz bir tatil deneyimine hoşgeldiniz.  Otelimiz Adrasan merkezde olup mavi bayraklı plajlara yürüme mesafesindedir. Siz misafirlerimize kaliteli, konforlu ve huzurlu bir konaklama sunmak için odalarımız tam donanımlı olarak modern tarzda hazırlanmıştır.  
+          p Fırtına deresi kenarında organik bahçesi ve kümesi bulunan mevsimine göre meyve ağaçları, bahçesiyle birlikte kullanabilecek şöminesi ve yine bahçe içerisinde huzurla oturulabilecek dere manzaralı verandası bulunmaktadır.
+            br
+            | Denize 4 km uzaklıkta dünyaca ünlü fırtına vadisi üzerinde, Ünlü turistik bölgesi Ayder Yaylasına 38 km uzalıkta, Trabzon Uzun göl 72 km ve Pokut Yaylası, Hüser Yaylası, Elevit Yaylası vb. yaylalara günlük gidilip gelinebilecek uzaklıkta.
         .col-12.col-sm-6
           video(width="100%" controls)
             source(src="/videos/movie.mp4" type="video/mp4")
@@ -35,22 +37,40 @@ section.content
         .col-12.col-sm-6.px-sm-0
           .rooms-content.px-sm-5
             h4.heading-sub-title Oda - 1
-            p " Le Chalet has set a new benchmark for understated luxury within a majestic alpine setting. I am delighted that this intimate retreat has been acknowledged by both the travel trade and the public by being voted ‘World’s Best New Ski Chalet 2019. "
-            .text * The chic and modern retreat is five floors of unrivalled excellence. Within the 1000m2 (3,330 ft 2) of living space are 12 executive-style bedrooms, 16 bathrooms, an indoor swimming pool, sauna and jacuzzi.
+            p Fırtına deresi kenarında organik bahçesi ve kümesi bulunan mevsimine göre meyve ağaçları, bahçesiyle birlikte kullanabilecek şöminesi ve yine bahçe içerisinde huzurla oturulabilecek dere manzaralı verandası bulunmaktadır.
+            .text 
+              | * 2 Tek Kişilik Yatak
               br
-              | * The chic and modern retreat is five floors 
+              | * 2 Kişilik Oturma Alanı
               br
-              | * The chic and modern retreat is five floors of unrivalled excellence. Within the 1000m2 (3,330 ft 2) of living space are 12 executive-style bedrooms, 16 bathrooms, an indoor swimming pool, sauna and jacuzzi.
+              | * Sabah Kahvaltısı
+              br
+              | * Fırtına Deresi Manzarası
+              br
+              | * Dağ Manzarası
+              br
+              | * Mini Mutfak
+              br
       .row
         .col-12.col-sm-6.px-sm-0
           .rooms-content.px-sm-5
             h4.heading-sub-title Oda - 2
-            p " Le Chalet has set a new benchmark for understated luxury within a majestic alpine setting. I am delighted that this intimate retreat has been acknowledged by both the travel trade and the public by being voted ‘World’s Best New Ski Chalet 2019. "
-            .text * The chic and modern retreat is five floors of unrivalled excellence. Within the 1000m2 (3,330 ft 2) of living space are 12 executive-style bedrooms, 16 bathrooms, an indoor swimming pool, sauna and jacuzzi.
+            p Denize 4 km uzaklıkta dünyaca ünlü fırtına vadisi üzerinde, Ünlü turistik bölgesi Ayder Yaylasına 38 km uzalıkta, Trabzon Uzun göl 72 km ve Pokut Yaylası, Hüser Yaylası, Elevit Yaylası vb. yaylalara günlük gidilip gelinebilecek uzaklıkta.
+            .text
+              | * 1 Çift Kişilik Yatak
               br
-              | * The chic and modern retreat is five floors 
+              | * 1 Tek Kişilik Yatak
               br
-              | * The chic and modern retreat is five floors of unrivalled excellence. Within the 1000m2 (3,330 ft 2) of living space are 12 executive-style bedrooms, 16 bathrooms, an indoor swimming pool, sauna and jacuzzi.
+              | * Sabah Kahvaltısı
+              br
+              | * Fırtına Deresi Manzarası
+              br
+              | * Dağ Manzarası
+              br
+              | * Bahçe Manzarası
+              br
+              | * Mini Mutfak
+              br
         .col-12.col-sm-6.px-sm-0
           img(src="/photos/room-2.png")
   section#galery
