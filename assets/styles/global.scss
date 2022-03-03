@@ -7,7 +7,12 @@ $container-max-widths: (
 );
 $bv-enable-table-stacked: false;
 
-$primary:       #aed35d !default;
+$theme-colors: (
+  "primary": #aed35d,
+  "danger": #ff4136,
+);
+
+$link-color:                  #424242 !default;
 
 $font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-size-base:              0.875rem !default; // Assumes the browser default, typically `16px`

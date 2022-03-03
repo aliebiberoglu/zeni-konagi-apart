@@ -2,12 +2,14 @@
 header.header
   .container
     .row
-      .col.col-lg-3
+      .col-6.col-sm-3
         .header-logo Zeni Konağı Apart
-      .col.col-lg-9
+      .col-6.col-sm-9
         .header-right
           nav
-            ul
+            a.mobile-menu.d-block.d-md-none
+              BIconList
+            ul.d-none.d-md-block
               li
                 a(@click="scroolToElement('home-slider')") Anasayfa
               li
@@ -17,16 +19,20 @@ header.header
               li
                 a(@click="scroolToElement('galery')") Galeri
               li
-                a(@click="scroolToElement('blog')") Blog
-              li
                 a(@click="scroolToElement('contact')") İletişim
               li.start-free-trial
                 a(href="tel:+90 542 798 5353") Tel: +90 542 798 5353
 </template>
 
 <script>
+import { BIconList } from 'bootstrap-vue'
+
 export default {
   name: 'Header',
+
+  components: {
+    BIconList
+  },
 
   methods: {
     scroolToElement(e) {
