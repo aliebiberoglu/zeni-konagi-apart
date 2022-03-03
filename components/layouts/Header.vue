@@ -2,14 +2,14 @@
 header.header
   .container
     .row
-      .col-6.col-sm-3
+      .col-9.col-sm-3
         .header-logo Zeni Konağı Apart
-      .col-6.col-sm-9
+      .col-3.col-sm-9
         .header-right
           nav
-            a.mobile-menu.d-block.d-md-none
+            a.mobile-menu.d-block.d-md-none(@click="showMobileMenu()")
               BIconList
-            ul.d-none.d-md-block
+            ul.d-none.d-md-block(:class="isMobileMenu ? 'active' : ''")
               li
                 a(@click="scroolToElement('home-slider')") Anasayfa
               li
@@ -34,8 +34,19 @@ export default {
     BIconList
   },
 
+  data() {
+    return {
+      isMobileMenu: false,
+    };
+  },
+
   methods: {
+    showMobileMenu() {
+      this.isMobileMenu = !this.isMobileMenu;
+    },
+
     scroolToElement(e) {
+      this.isMobileMenu = false;
       document.getElementById(e).scrollIntoView({ behavior: 'smooth', block: 'start'});
     },
   }
