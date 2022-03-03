@@ -4,7 +4,7 @@ section.content
     .slider-image
       img(src="/slider/view1.png")
     .slider-text
-      h1 Zeni Konağı 
+      h2 Zeni Konağı 
         br
         | Apart
       h3 THE ULTIMATE SKI CHALET IN THE CHAMONIX VALLEY
@@ -15,10 +15,10 @@ section.content
     .container
       .row
         .col-12.col-sm-12
-          h2.heading-title Hakkımızda
+          h3.heading-title Hakkımızda
           hr.hr-short
         .col-12.col-sm-6
-          h3.heading-sub-title Hoşgeldiniz
+          h4.heading-sub-title Hoşgeldiniz
           p Yepyeni bir apart da, doğanın sessizliği, yeşilin huzuru ve deniz manzarasıyla unutulmaz bir tatil deneyimine hoşgeldiniz.  Otelimiz Adrasan merkezde olup mavi bayraklı plajlara yürüme mesafesindedir. Siz misafirlerimize kaliteli, konforlu ve huzurlu bir konaklama sunmak için odalarımız tam donanımlı olarak modern tarzda hazırlanmıştır.  
         .col-12.col-sm-6
           video(width="100%" controls)
@@ -27,14 +27,14 @@ section.content
     .container-fluid
       .row
         .col-12
-          h2.heading-title Odalarımız
+          h3.heading-title Odalarımız
           hr.hr-short
       .row
         .col-12.col-sm-6.px-sm-0
           img(src="/photos/room-1.png")
         .col-12.col-sm-6.px-sm-0
           .rooms-content.px-sm-5
-            h3.heading-sub-title Oda - 1
+            h4.heading-sub-title Oda - 1
             p " Le Chalet has set a new benchmark for understated luxury within a majestic alpine setting. I am delighted that this intimate retreat has been acknowledged by both the travel trade and the public by being voted ‘World’s Best New Ski Chalet 2019. "
             .text * The chic and modern retreat is five floors of unrivalled excellence. Within the 1000m2 (3,330 ft 2) of living space are 12 executive-style bedrooms, 16 bathrooms, an indoor swimming pool, sauna and jacuzzi.
               br
@@ -44,7 +44,7 @@ section.content
       .row
         .col-12.col-sm-6.px-sm-0
           .rooms-content.px-sm-5
-            h3.heading-sub-title Oda - 2
+            h4.heading-sub-title Oda - 2
             p " Le Chalet has set a new benchmark for understated luxury within a majestic alpine setting. I am delighted that this intimate retreat has been acknowledged by both the travel trade and the public by being voted ‘World’s Best New Ski Chalet 2019. "
             .text * The chic and modern retreat is five floors of unrivalled excellence. Within the 1000m2 (3,330 ft 2) of living space are 12 executive-style bedrooms, 16 bathrooms, an indoor swimming pool, sauna and jacuzzi.
               br
@@ -57,7 +57,7 @@ section.content
     .container-fluid
       .row
         .col-12
-          h2.heading-title Galeri
+          h3.heading-title Galeri
           hr.hr-short
         .col-6.col-sm-3.px-0(v-for="image in imageList")
           .galery-list
@@ -70,7 +70,7 @@ section.content
     .container-fluid
       .row
         .col-12
-          h2.heading-title İletişim
+          h3.heading-title İletişim
           hr.hr-short
         .col-12.text-center
           address

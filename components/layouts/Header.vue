@@ -3,7 +3,8 @@ header.header
   .container
     .row
       .col-9.col-sm-3
-        .header-logo Zeni Konağı Apart
+        .header-logo
+          h1 Zeni Konağı Apart
       .col-3.col-sm-9
         .header-right
           nav
