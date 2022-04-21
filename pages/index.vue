@@ -4,11 +4,11 @@ section.content
     .slider-image
       img(src="/slider/view1.png")
     .slider-text
-      h2 Zeni Konağı 
-        br
-        | Apart
-      h3 THE ULTIMATE SKI CHALET IN THE CHAMONIX VALLEY
-      p Le Chalet Mont Blanc, the Chamonix chic and modern chalet retreat is five floors of unrivalled excellence facing Mont Blanc. Within the 1000m2 (3,330 ft 2) of living space are 12 executive-style bedrooms, 16 bathrooms, an indoor swimming pool, sauna and jacuzzi.
+      h2
+        span Zeni Konağı 
+      h3
+        span Jeep safari, Çadır kamp Rehberlik, Konaklama
+      p Fırtına deresi kenarında organik bahçesi ve kümesi bulunan mevsimine göre meyve ağaçları, bahçesiyle birlikte kullanabilecek şöminesi ve yine bahçe içerisinde huzurla oturulabilecek dere manzaralı verandası bulunmaktadır.
       div
         a.btn.btn-primary(href="tel:+90 542 798 5353") Rezervasyon Yap
   section#about-us
@@ -33,11 +33,11 @@ section.content
           hr.hr-short
       .row
         .col-12.col-sm-6.px-sm-0
-          img(src="/photos/room-1.png")
+          img(src="/photos/room-1.png" alt="Zeni Konağı Kaveşkala oda")
         .col-12.col-sm-6.px-sm-0
           .rooms-content.px-sm-5
-            h4.heading-sub-title Oda - 1
-            p Fırtına deresi kenarında organik bahçesi ve kümesi bulunan mevsimine göre meyve ağaçları, bahçesiyle birlikte kullanabilecek şöminesi ve yine bahçe içerisinde huzurla oturulabilecek dere manzaralı verandası bulunmaktadır.
+            h4.heading-sub-title Kaveşkala Oda
+            p Dereyi doğrudan teras manzarası ile görebilmeyi sağlayan "Kaveşkala Oda", evin üst katında bulunmaktadır.Evin en büyük odası olmasının yanı sıra, balkona çıkabileceğiniz ayrı bir kapısı bulunmaktadır.Yatağınıza uzandığınız zaman bile dereyi görebileceğiniz bu odada, rahatlığın tadını çıkarırken aynı zamanda Kaçkar Dağları ve Fırtına Deresi manzarasını seyrederek en unutulmaz deneyimleri yaşayın.
             .text 
               | * 2 Tek Kişilik Yatak
               br
@@ -48,14 +48,11 @@ section.content
               | * Fırtına Deresi Manzarası
               br
               | * Dağ Manzarası
-              br
-              | * Mini Mutfak
-              br
       .row
         .col-12.col-sm-6.px-sm-0
           .rooms-content.px-sm-5
-            h4.heading-sub-title Oda - 2
-            p Denize 4 km uzaklıkta dünyaca ünlü fırtına vadisi üzerinde, Ünlü turistik bölgesi Ayder Yaylasına 38 km uzalıkta, Trabzon Uzun göl 72 km ve Pokut Yaylası, Hüser Yaylası, Elevit Yaylası vb. yaylalara günlük gidilip gelinebilecek uzaklıkta.
+            h4.heading-sub-title Toba Oda
+            p Kaveşkala Oda ile hemen yanında "Toba Oda" evin üst katında teras manzarası ve doğruran balkona çıkabileceğiniz bir kapısı bulunmaktadır.Dere sesini en iyi şekilde duyabileceğiniz oda olmasının yanında odanın yapısından dolayı kendinizi otantik ve doğallığın tam ortasında hissedebilirsiniz.
             .text
               | * 1 Çift Kişilik Yatak
               br
@@ -68,11 +65,8 @@ section.content
               | * Dağ Manzarası
               br
               | * Bahçe Manzarası
-              br
-              | * Mini Mutfak
-              br
         .col-12.col-sm-6.px-sm-0
-          img(src="/photos/room-2.png")
+          img(src="/photos/room-2.png" alt="Zeni Konağı Toba oda")
   section#galery
     .container-fluid
       .row
@@ -101,9 +95,9 @@ section.content
               a(href="tel:+90 542 798 5353") Tel: +90 542 798 5353
         .col-12.px-0
           iframe(
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.0615794272867!2d40.99569931552183!3d41.15500761833128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4066463d96de4c61%3A0xe5f85eff3a50bcfe!2zWmVuaSBLb25hxJ_EsSBBcGFydA!5e0!3m2!1sen!2str!4v1646154438111!5m2!1sen!2str"
             width="100%"
             height="460"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.954121792761!2d40.993594215521874!3d41.157352418186704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4066463d96de4c61%3A0xe5f85eff3a50bcfe!2zWmVuaSBLb25hxJ_EsSBBcGFydA!5e0!3m2!1sen!2str!4v1650565602472!5m2!1sen!2str"
             style="border:0;"
             allowfullscreen=""
             loading="lazy"
