@@ -3,14 +3,15 @@ export default {
   
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Zeni Konağı Apart',
+    title: 'Zeni Konağı - Doğa Seni Çağırıyor',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'keywords', name: 'keywords', content: 'Zeni Konağı, Ayder Yaylası, Ardeşen, Rize, Karadeniz, Fırtına Vadisi, Çamlıhemşin, Konaklama, Rize Konaklama' },
+      { hid: 'description', name: 'description', content: 'Zeni Konağı Ayder yolu üzerinde Fırtına Vadisi nin en güzel manzaralarından birini konuklarına sunan şık ve samimi bir tesis. Bölgenin mimari yapısıyla uyum içinde inşa edilmiş olan Dere Evi ahşap stiliyle lüks ve geleneği birbiriyle buluşturuyor.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
