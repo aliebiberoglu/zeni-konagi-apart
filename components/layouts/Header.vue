@@ -4,7 +4,7 @@ header.header
     .row
       .col-9.col-sm-3
         .header-logo
-          h1 Zeni Konağı Apart
+          h1 Zeni Konağı
       .col-3.col-sm-9
         .header-right
           nav
