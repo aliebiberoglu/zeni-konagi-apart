@@ -41,7 +41,26 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
   ],
+
+  sitemap: {
+    hostname: 'http://zenikonagi.com/',
+    gzip: true,
+    defaults: {
+      priority: 1,
+      lastmod: new Date()
+    },
+  },
+
+  robots: () => {
+    return {
+      UserAgent: '*',
+      Disallow: '',
+      Sitemap: 'http://zenikonagi.com/sitemap.xml',
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
